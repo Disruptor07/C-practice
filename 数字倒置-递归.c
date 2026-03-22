@@ -15,6 +15,6 @@ void f(int n)
         printf("%d",n);
         return;
     }
-    printf("%d",n%10);
+    printf("%d",n%10); 
     f(n/10);
 }
